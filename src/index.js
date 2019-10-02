@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
   s.addEventListener('click', function(e) {
     e.preventDefault();
-    document.querySelector()
+    document.querySelector('#list').innerHTML += '<p>' + task + '</p>';
   })
 });
