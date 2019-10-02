@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let task = document.querySelector('')
+  let task = document.querySelector('#new-task-description').value;
 });
